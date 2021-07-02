@@ -1,0 +1,62 @@
+
+Question N1: What is HTML ?
+Options : -It is a design software
+          -It is used to create webpages
+          -It is used to edit pictures
+          -It is used to plan things
+Answer : -It is used to create webpages
+
+Question N2: What is CSS ?
+Options : -It is a design software
+          -It is used to generate texts
+          -It is  a programing language 
+          -it an operating system
+Answer :-It is  a programing language 
+
+Question N3: What is the most used programing language in front-end web design?
+Options : -JS
+          -CSS
+          -PYTHON
+          -HTML
+Answer :-CSS
+
+Question N4: A DYNAMIC WEBSITE IS
+Options : -It is a website that displays different types of content every time a user views it.A dynamic website is a website that displays different types of content every time a user views it.
+          -It is  a website that contains images
+          -It is a website that you can access using your phone or pc 
+          -it is a webpage that have videos
+Answer :-It is a website that displays different types of content every time a user views it.A dynamic website is a website that displays different types of content every time a user views it.
+
+Question N5: A web developer must know how to use (HTML , JS And CSS)  ?
+Options : -True 
+          -False
+Answer :-True
+
+Question N6: How to add an image in HTML?
+Options : -(img src="" alt="")
+          -(img href="" alt="" )
+          -(img href="")
+Answer :-(img src="" alt="")
+
+Question N7: Div tag has only an open tag?
+Options : -True          
+          -False
+Answer :-False
+
+Question N8: What does HTML stand for?
+Options : -Hyper Text Markup Language
+          -Hyperlinks and Text Markup Language
+          -Home Tool Markup Language
+Answer :-Hyper Text Markup Language
+
+Question N9: What does WWW stand for?
+Options : -World Without Windows
+          -World Wide Web       
+Answer :-World Wide Web       
+
+Question N10: What does CSS stand for?
+Options : -Catholic Social Services
+          -Cascading Style Sheet
+          -Counter-Strike:Source
+Answer :-Cascading Style Sheet
+

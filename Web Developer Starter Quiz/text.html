@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quizz</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <div class="home-box ">
+    <h2>Quizz </h2>
+    <h4>  <img class="img" src="assets/warning.svg">  Read These Instructions Carefully Before Starting </h4>
+    <ol> 
+      <li> Every question is random from a set of <span class="heading"></span> questions in total . </li> 
+      <li> Answering correctly will increase the score by 1 Point .</li> 
+      <li> Once you click on your answer the button "NEXT" will appear .</li> 
+      <li> If you press "Home" button durring the quiz , it will start again .</li>
+      <li> You can only skip three times !</li> 
+      <li> Skipped answers won't be considered as a wrong one !</li>
+    </ol>   
+    <h4 style="color: tomato;">Good Luck !</h4>
+    <button id="btn" onclick="startQuiz()" class="button"> Let's start </button>
+  </div>
+
+  <div class="quiz-box hide ">
+    <div class="question-number"></div>
+    <div class="quiz-box-buttons">
+      <button id="btn" onclick="home()" class="button-home-1"> Home</button>
+      <button id="btn" onclick="skip()" class="button-skip ">Skip</button>
+    </div>
+    <div class="question-text"></div>
+
+    <div class="option-container" style="cursor: pointer;">
+      <div class="option-box">
+      </div>
+    </div>
+    <div class="container-indicator">
+
+    </div>
+    <div class="next-question-btn">
+      <button type="button" id="btn" class="button-next" onclick="next()">Next! >></button>
+      </button>
+    </div>
+    <div class="score-tracking">
+      Score : <span class="trc-score"></span> Pts
+    </div>
+    
+  </div>
+
+  <div class="result-box hide ">
+    <div>
+      <button id="btn" onclick="home()" class="button-home"> Home</button>
+    </div>
+    <h1>Quiz Result</h1>
+
+    <table class="table">
+      <tr class="tr">
+        <td>Total Question</td>
+        <td><span class="total-question"></span></td>
+      </tr>
+      <tr class="tr">
+        <td>T.Skipped Questions</td>
+        <td><span class="total-skips"></span></td>
+      </tr>
+      <tr class="tr">
+        <td>T.Correct Answers </td>
+        <td><span class="total-correct"></span></td>
+      </tr>
+      <tr class="tr">
+        <td>T.Wrong Answers</td>
+        <td><span class="total-wrong"></span></td>
+      </tr>
+      <tr class="tr">
+        <td> Total score</td>
+        <td><span class="total-score"></span></td>
+      </tr>
+
+    </table>
+    <div class="container-indicator"></div>
+    <div>
+      <button id="btn" onclick="tryAgainQuiz()" class="button"> Retry !</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
